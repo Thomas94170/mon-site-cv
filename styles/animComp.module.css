@@ -1,0 +1,124 @@
+.spinner {
+  display: flex;
+  flex-wrap: wrap;
+  height:auto;
+  align-content: space-between;
+  max-width: 800px;
+  margin: auto;
+
+}
+
+.spinnerItem {
+  font-size: x-large;
+  border-radius: 25px;
+  border: 2px solid #A41623;
+  background: white;
+  padding: 20px; 
+  margin: 10px;
+}
+
+.framework
+{
+  font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+    display: inline;
+}
+
+.framework::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: auto;
+  background-color: #C44536;
+  transform: translate(-50%, -50%);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.framework:hover::after{
+  transform: scale(1);
+}
+
+.informatique{
+  font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+    display: inline;
+}
+
+.informatique::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: auto;
+  background-color: #C44536;
+  transform: translate(-50%, -50%);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.informatique:hover::after{
+  transform: scale(1);
+}
+
+.langue{
+  font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+    display: inline;
+}
+
+.langue::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: auto;
+  background-color: #C44536;
+  transform: translate(-50%, -50%);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.langue:hover::after{
+  transform: scale(1);
+}
+
+.hobby{
+  font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+    display: inline;
+}
+
+.hobby::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: auto;
+  background-color: #C44536;
+  transform: translate(-50%, -50%);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.hobby:hover::after{
+  transform: scale(1);
+}
+

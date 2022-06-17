@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "KdamThmorPro";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/KdamThmorPro-Regular.ttf) format("woff2");
+  }
+
+  @font-face {
+    font-family: "Viga";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Viga-Regular.ttf) format("woff2");
+  }
+
+
+.projets{
+    background-image: url(../img/map.jpg);
+    /* background-color: black; */
+}
+
+.titre
+{
+    font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+    display: inline;
+}
+
+.titre::after{
+    content:"";
+    display: block;
+    height: 3px;
+    width: auto;
+    background-color: #C44536;
+    transform: translate(-50%, -50%);
+      transform: scale(0);
+      transition: transform 0.2s ease-in-out;
+  
+  }
+  
+  .titre:hover::after{
+    transform: scale(1);
+  }
+
+.p
+{
+    color: #C44536;
+    font-family: "KdamThmorPro";
+}
+
+
