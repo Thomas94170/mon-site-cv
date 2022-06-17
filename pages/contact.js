@@ -1,7 +1,7 @@
 import { Navbar } from "../components/navbar";
 import "bootstrap/dist/css/bootstrap.css";
 
-export default () => (
+export default Contact = () => (
   <main>
     <Navbar />
     <h1>Contact</h1>

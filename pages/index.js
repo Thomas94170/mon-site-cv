@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Home } from "../components/home";
 import { Footer } from "../components/footer";
 
-export default () => (
+export default Index = () => (
   <>
     <div>
       <Navbar />
