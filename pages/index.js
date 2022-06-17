@@ -7,14 +7,16 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Home } from "../components/home";
 import { Footer } from "../components/footer";
 
-export default () => (
-  <>
-    <div>
-      <Navbar />
+export default function Index() {
+  return (
+    <>
+      <div>
+        <Navbar />
 
-      <Home />
+        <Home />
 
-      <Footer />
-    </div>
-  </>
-);
+        <Footer />
+      </div>
+    </>
+  );
+}

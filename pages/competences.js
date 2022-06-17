@@ -6,15 +6,17 @@ import { Footer } from "../components/footer";
 import "bootstrap/dist/css/bootstrap.css";
 import styles from "../styles/competence.module.css";
 
-export default () => (
-  <main className={styles.map}>
-    <Navbar />
-    <br />
-    <AboutMe />
+export default function Competences() {
+  return (
+    <main className={styles.map}>
+      <Navbar />
+      <br />
+      <AboutMe />
 
-    <ParallaxProvider>
-      <AnimCompetences />
-    </ParallaxProvider>
-    <Footer />
-  </main>
-);
+      <ParallaxProvider>
+        <AnimCompetences />
+      </ParallaxProvider>
+      <Footer />
+    </main>
+  );
+}

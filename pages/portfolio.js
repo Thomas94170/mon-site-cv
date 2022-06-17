@@ -5,14 +5,16 @@ import { Projets } from "../components/projets";
 import "bootstrap/dist/css/bootstrap.css";
 import { Modal } from "../components/modal";
 
-export default () => (
-  <main>
-    <Navbar />
-    <br />
+export default function Portfolio() {
+  return (
+    <main>
+      <Navbar />
+      <br />
 
-    <Modal />
-    <Projets />
-    <br />
-    <Footer />
-  </main>
-);
+      <Modal />
+      <Projets />
+      <br />
+      <Footer />
+    </main>
+  );
+}
