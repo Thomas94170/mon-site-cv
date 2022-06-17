@@ -26,6 +26,7 @@ export const Projets = () => {
               />
             </a>
             <p className="text-center">Javascript</p>
+            <p className="text-center">Jeu de dé</p>
           </div>
           <div className={styles.p}>
             <a href="https://charles-photographie-thomas94170.vercel.app/">
@@ -37,6 +38,7 @@ export const Projets = () => {
               />
             </a>
             <p className="text-center">Next.js/CMS Headless (strapi)</p>
+            <p className="text-center">Site photographie</p>
           </div>
         </div>
         <br />
@@ -52,6 +54,7 @@ export const Projets = () => {
               />
             </a>
             <p className="text-center">Html/Bootstrap</p>
+            <p className="text-center">Association</p>
           </div>
           <div className={styles.p}>
             <a href="https://ttcrypto-monnaies.vercel.app/">
@@ -63,6 +66,7 @@ export const Projets = () => {
               />
             </a>
             <p className="text-center">Next.js-tailwindCSS</p>
+            <p className="text-center">Crypto</p>
           </div>
         </div>
       </div>

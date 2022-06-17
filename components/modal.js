@@ -30,44 +30,49 @@ export const Modal = () => {
       {/* construction Modal jsx*/}
       {showModal ? (
         <div>
+          <div>
+            <br />
+            <br />
+            <div className="d-flex justify-content-around">
+              <br />
+              <button type="button" class={styles.popup}>
+                <a href="https://github.com/Thomas94170/evaluation-studi-JS">
+                  Jeu de dé
+                </a>
+              </button>
+              <br />
+              <button type="button" class={styles.popup}>
+                <a href="https://github.com/Thomas94170/eval-front-end">
+                  Photographe
+                </a>
+              </button>
+              <br />
+              <button type="button" class={styles.popup}>
+                <a href="https://github.com/Thomas94170/page-vitrine_THIRION_Thomas">
+                  Association
+                </a>
+              </button>
+              <br />
+              <button type="button" class={styles.popup}>
+                <a href="https://github.com/Thomas94170/Crypto-Monnaies">
+                  Crypto
+                </a>
+              </button>
+              <button type="button" class={styles.popup}>
+                <a href="https://github.com/Thomas94170/mon-site-cv">
+                  Code de ce site
+                </a>
+              </button>
+            </div>
+          </div>
           <br />
-          <br />
-          <div className="d-flex justify-content-around">
+          <div className="d-flex justify-content-center">
             <button
               type="button"
               class={styles.retour}
               onClick={() => setShowModal(false)}
             >
               Retour
-            </button>
-            <br />
-            <button type="button" class={styles.popup}>
-              <a href="https://github.com/Thomas94170/evaluation-studi-JS">
-                Code Jeu de dé
-              </a>
-            </button>
-            <br />
-            <button type="button" class={styles.popup}>
-              <a href="https://github.com/Thomas94170/eval-front-end">
-                Code Photographe
-              </a>
-            </button>
-            <br />
-            <button type="button" class={styles.popup}>
-              <a href="https://github.com/Thomas94170/page-vitrine_THIRION_Thomas">
-                Code Association
-              </a>
-            </button>
-            <br />
-            <button type="button" class={styles.popup}>
-              <a href="https://github.com/Thomas94170/Crypto-Monnaies">
-                Code Crypto
-              </a>
-            </button>
-            <button type="button" class={styles.popup}>
-              <a href="https://github.com/Thomas94170/mon-site-cv">
-                Code de ce site
-              </a>
             </button>
           </div>
         </div>

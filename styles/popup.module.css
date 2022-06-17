@@ -1,13 +1,12 @@
 .popup{
-    
-    
-    font-family: "Viga";
+font-family: "Viga";
 background-color: #4cc1b9;
 border-radius: 25px;
 font-size: 20px;
 text-shadow: 1px 1px #EDDDD4;
 border: 2px solid #283D3B ;
 box-shadow: 3px 6px #EDDDD4;
+text-decoration: none;
 }
 
 .popup:global{
@@ -23,3 +22,4 @@ text-shadow: 1px 1px #EDDDD4;
 border: 2px solid #283D3B ;
 box-shadow: 3px 6px #EDDDD4;
 }
+
