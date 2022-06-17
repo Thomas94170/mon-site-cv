@@ -10,7 +10,7 @@ export const Footer = () => {
 
       <div className={styles.footer}>
         <p className="text-center">ThomasDevweb94</p>
-        <div class="d-flex justify-content-around">
+        <div className="d-flex justify-content-around">
           <a href="https://www.linkedin.com/in/thomas-thirion-776748145/">
             <img
               src="https://img.icons8.com/ios-filled/50/undefined/linkedin.png"

@@ -35,30 +35,30 @@ export const Modal = () => {
             <br />
             <div className="d-flex justify-content-around">
               <br />
-              <button type="button" class={styles.popup}>
+              <button type="button" className={styles.popup}>
                 <a href="https://github.com/Thomas94170/evaluation-studi-JS">
                   Jeu de dé
                 </a>
               </button>
               <br />
-              <button type="button" class={styles.popup}>
+              <button type="button" className={styles.popup}>
                 <a href="https://github.com/Thomas94170/eval-front-end">
                   Photographe
                 </a>
               </button>
               <br />
-              <button type="button" class={styles.popup}>
+              <button type="button" className={styles.popup}>
                 <a href="https://github.com/Thomas94170/page-vitrine_THIRION_Thomas">
                   Association
                 </a>
               </button>
               <br />
-              <button type="button" class={styles.popup}>
+              <button type="button" className={styles.popup}>
                 <a href="https://github.com/Thomas94170/Crypto-Monnaies">
                   Crypto
                 </a>
               </button>
-              <button type="button" class={styles.popup}>
+              <button type="button" className={styles.popup}>
                 <a href="https://github.com/Thomas94170/mon-site-cv">
                   Code de ce site
                 </a>
@@ -69,7 +69,7 @@ export const Modal = () => {
           <div className="d-flex justify-content-center">
             <button
               type="button"
-              class={styles.retour}
+              className={styles.retour}
               onClick={() => setShowModal(false)}
             >
               Retour

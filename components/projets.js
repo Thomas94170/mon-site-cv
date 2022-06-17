@@ -15,7 +15,7 @@ export const Projets = () => {
           <h2 className="text-center">Mes projets</h2>
         </div>
         <br />
-        <div class="d-flex justify-content-around">
+        <div className="d-flex justify-content-around">
           <div className={styles.p}>
             <a href="https://evaluation-studi-js-ththomas.netlify.app/">
               <Image
@@ -43,7 +43,7 @@ export const Projets = () => {
         </div>
         <br />
         <br />
-        <div class="d-flex justify-content-around">
+        <div className="d-flex justify-content-around">
           <div className={styles.p}>
             <a href="https://creation-site-responsive-design-studi-thirionthomas.netlify.app/">
               <Image
