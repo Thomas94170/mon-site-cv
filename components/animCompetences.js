@@ -27,13 +27,13 @@ export const AnimCompetences = () => {
             </li>
             <li>
               <ol>
-                Compréhension des besoins utilisateurs et création d'un cahier
+                Compréhension des besoins utilisateurs et création d un cahier
                 des charges
               </ol>
             </li>
             <li>
               <ol>
-                Mise en oeuvre du déploiement de sites ou d'applications en
+                Mise en oeuvre du déploiement de sites ou d applications en
                 ligne
               </ol>
             </li>
@@ -45,7 +45,7 @@ export const AnimCompetences = () => {
             </li>
             <li>
               <ol>
-                Bonne gestion du temps, travail d'équipe, communicatif, curieux,
+                Bonne gestion du temps, travail d équipe, communicatif, curieux,
                 motivé
               </ol>
             </li>
