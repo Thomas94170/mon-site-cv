@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import Image from "next/Image";
+// import Image from "next/Image";
 import { AiFillFire } from "react-icons/ai";
 import styles from "../styles/popup.module.css";
 
