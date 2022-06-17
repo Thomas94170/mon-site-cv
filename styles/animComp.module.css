@@ -1,3 +1,14 @@
+
+  @font-face {
+    font-family: "KdamThmorPro";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/KdamThmorPro-Regular.ttf) format("woff2");
+  }
+
+
+
 .spinner {
   display: flex;
   flex-wrap: wrap;
@@ -122,3 +133,7 @@
   transform: scale(1);
 }
 
+.paragraphe{
+  font-family: "KdamThmorPro";
+  
+}

@@ -1,0 +1,25 @@
+.popup{
+    
+    
+    font-family: "Viga";
+background-color: #4cc1b9;
+border-radius: 25px;
+font-size: 20px;
+text-shadow: 1px 1px #EDDDD4;
+border: 2px solid #283D3B ;
+box-shadow: 3px 6px #EDDDD4;
+}
+
+.popup:global{
+text-decoration: none;
+}
+
+.retour{
+    font-family: "Viga";
+background-color: #F7290E;
+border-radius: 25px;
+font-size: 20px;
+text-shadow: 1px 1px #EDDDD4;
+border: 2px solid #283D3B ;
+box-shadow: 3px 6px #EDDDD4;
+}

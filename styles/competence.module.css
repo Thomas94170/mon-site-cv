@@ -14,6 +14,20 @@
     src: url(../fonts/Viga-Regular.ttf) format("woff2");
   }
 
+  @font-face {
+    font-family: "KdamThmorPro";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/KdamThmorPro-Regular.ttf) format("woff2");
+  }
+
+/* .map{
+  background-image: url(../img/map.jpg);
+  background-position: center;
+  background-size: cover;
+} */
+
 .aboutme{
     font-family: "Viga";
     font-size: 40px;
@@ -68,9 +82,11 @@
   transform: scale(1);
 }
 
+.me{
+  font-family: "KdamThmorPro";  
+}
 
 
-.me
 .contenu{
-  font-family: "Cairo";  
+  font-family: "KdamThmorPro";  
 }

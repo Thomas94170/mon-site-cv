@@ -13,9 +13,9 @@
     margin: 20 px;
     font-family: "KdamThmorPro";
     border-radius: 15px 15px 0px 0px;
-      background-color: #197278;
+      background-color: #4cc1b9;
       border: 3px solid #C44536; 
-       /* width: 100%;  */
+       width: auto; 
   }
   
   .link {
