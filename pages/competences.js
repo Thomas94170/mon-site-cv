@@ -6,7 +6,7 @@ import { Footer } from "../components/footer";
 import "bootstrap/dist/css/bootstrap.css";
 import styles from "../styles/competence.module.css";
 
-export default Competences = () => (
+export default () => (
   <main className={styles.map}>
     <Navbar />
     <br />

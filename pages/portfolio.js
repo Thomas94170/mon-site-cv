@@ -5,7 +5,7 @@ import { Projets } from "../components/projets";
 import "bootstrap/dist/css/bootstrap.css";
 import { Modal } from "../components/modal";
 
-export default Portfolio = () => (
+export default () => (
   <main>
     <Navbar />
     <br />
