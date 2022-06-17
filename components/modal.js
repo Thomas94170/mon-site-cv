@@ -9,7 +9,7 @@ export const Modal = () => {
   const [showSecondModal, setShowSecondModal] = useState(false);
   return (
     <div>
-      <div class="d-flex justify-content-center">
+      <div className="d-flex justify-content-center">
         <button
           type="button"
           className={styles.popup}
