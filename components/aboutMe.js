@@ -26,7 +26,7 @@ export const AboutMe = () => {
         </p>
         <br />
         <p className="text-center">
-          J'affectionne tout particulièrement React et son framework Next.js
+          J affectionne tout particulièrement React et son framework Next.js
           ainsi que la gestion des API dans le domaine du front end. Pour le
           back-end, symfony m attire tout particulièrement.
         </p>
